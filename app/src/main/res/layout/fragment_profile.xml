@@ -1,0 +1,675 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/tools"
+    android:id="@+id/itemuserlistfrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wallpapers"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@mipmap/backicon"
+        android:elevation="12dp"
+        android:onClick="pressback" />
+
+    <FrameLayout
+        android:id="@+id/gito"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="220dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/darkblue"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/buttonnotification"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:background="@color/bg_register"
+                android:gravity="center"
+                android:text="@string/profile"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+
+            <LinearLayout
+                android:id="@+id/layoutValuesfrag"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingEnd="25dp"
+                android:paddingLeft="25dp">
+
+                <View
+                    android:id="@+id/view9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#fff" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+
+                        android:foregroundGravity="center"
+                        android:gravity="center|start"
+                        android:orientation="vertical"
+                        android:tag="COLUMN_USER_NAME">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_weight="2"
+                            android:drawableEnd="@mipmap/ic_personwhite"
+                            android:foregroundGravity="center"
+                            android:gravity="left|right|center"
+                            android:tag="COLUMN_USER_NAME"
+                            android:text="@string/hint_name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textViewNamefrag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:foregroundGravity="center"
+                            android:gravity="left|center"
+                            android:inputType="textPersonName"
+                            android:tag="COLUMN_USER_NAME"
+                            android:text="@string/hint_name"
+                            android:textColor="@color/input_register"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutAge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_marginRight="93dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:tag="PERSON_COLUMN_AGE">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+
+                            android:foregroundGravity="center"
+                            android:gravity="left|right|center"
+                            android:tag="PERSON_COLUMN_AGE"
+                            android:text="@string/age"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/Agefrag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:foregroundGravity="center"
+                            android:gravity="left|center"
+                            android:inputType="number"
+                            android:tag="PERSON_COLUMN_AGE"
+                            android:text="@string/age"
+                            android:textColor="@color/input_register"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#fff"
+                    android:foregroundGravity="center" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="46dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutGender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_marginRight="1dp"
+                        android:orientation="vertical"
+                        android:tag="PERSON_COLUMN_GENDER">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="start"
+                            android:layout_weight="1"
+                            android:drawableEnd="@mipmap/gendewhite"
+                            android:foregroundGravity="center"
+                            android:gravity="left|right|center"
+                            android:tag="PERSON_COLUMN_GENDER"
+                            android:text="@string/gender"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/Genderfrag"
+                            android:layout_width="124dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:foregroundGravity="center"
+
+                            android:gravity="left|center"
+                            android:inputType="number"
+                            android:tag="PERSON_COLUMN_GENDER"
+                            android:text="@string/gender"
+                            android:textColor="@color/input_register"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutEmail"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+
+                        android:layout_alignParentTop="true"
+                        android:foregroundGravity="center"
+                        android:gravity="start"
+                        android:orientation="vertical"
+                        android:tag="COLUMN_USER_EMAIL">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:drawableEnd="@mipmap/ic_emailwhite"
+                            android:foregroundGravity="center"
+
+                            android:gravity="left|right|center"
+                            android:tag="COLUMN_USER_EMAIL"
+                            android:text="@string/hint_email"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textViewEmailfrag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:foregroundGravity="center"
+
+                            android:gravity="left|center"
+                            android:inputType="textEmailAddress"
+                            android:tag="COLUMN_USER_EMAIL"
+                            android:text="@string/hint_email"
+                            android:textColor="@color/input_register"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#fff"
+                    android:foregroundGravity="center" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="57dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutHei"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_marginRight="52dp"
+                        android:gravity="start"
+                        android:orientation="vertical"
+                        android:tag="PERSON_COLUMN_HEI">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_gravity="start"
+
+
+                            android:layout_weight="1"
+                            android:drawableEnd="@mipmap/tallwhite"
+                            android:foregroundGravity="center"
+                            android:gravity="left|right|center"
+                            android:tag="PERSON_COLUMN_HEI"
+                            android:text="@string/height"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/Heightfrag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:foregroundGravity="center"
+
+                            android:gravity="left|center"
+                            android:inputType="number"
+                            android:tag="PERSON_COLUMN_HEI"
+                            android:text="@string/height"
+                            android:textColor="@color/input_register"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+
+                        android:foregroundGravity="center"
+                        android:orientation="vertical"
+                        android:tag="COLUMN_USER_PASSWORD">
+
+                        <TextView
+                            android:id="@+id/textViewType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:drawableEnd="@mipmap/ic_keywhite"
+
+                            android:foregroundGravity="center"
+                            android:gravity="left|right|center"
+                            android:tag="COLUMN_USER_PASSWORD"
+                            android:text="@string/password"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textViewPasswordfrag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_weight="2"
+                            android:foregroundGravity="center"
+
+                            android:gravity="left|center"
+                            android:inputType="textPassword"
+                            android:tag="COLUMN_USER_PASSWORD"
+                            android:text="@string/picture"
+                            android:textColor="@color/input_register"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#fff"
+                    android:foregroundGravity="center" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2"
+                    android:foregroundGravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutWei"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_weight="2"
+                        android:foregroundGravity="center"
+                        android:orientation="vertical"
+                        android:tag="PERSON_COLUMN_WEI">
+
+                        <TextView
+                            android:id="@+id/userUpdatetextView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="start"
+
+                            android:drawableEnd="@mipmap/weightwhite"
+                            android:foregroundGravity="center"
+                            android:gravity="left|right|center"
+                            android:tag="PERSON_COLUMN_WEI"
+                            android:text="@string/weight"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/Weightfrag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:foregroundGravity="center"
+
+                            android:gravity="left|center"
+                            android:inputType="number"
+                            android:tag="PERSON_COLUMN_WEI"
+                            android:text="@string/weight"
+                            android:textColor="@color/input_register"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_marginRight="0dp"
+                        android:orientation="vertical"
+                        android:tag="PERSON_COLUMN_TYPE">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:drawableEnd="@mipmap/runwhite"
+
+                            android:foregroundGravity="center"
+                            android:gravity="left|right|center"
+                            android:tag="PERSON_COLUMN_TYPE"
+                            android:text="@string/active"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/Typefrag"
+                            android:layout_width="123dp"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="left|center"
+                            android:inputType="number"
+                            android:tag="PERSON_COLUMN_TYPE"
+                            android:text="@string/type"
+                            android:textColor="@color/input_register"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageBtnfrag"
+        android:layout_width="152dp"
+        android:layout_height="151dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/profileicon"
+        app:civ_border_color="#ffffff"
+        app:civ_border_width="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/linearUpdatefrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/btnrd1"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/btnrd2"
+            android:clickable="true"
+            android:elevation="1dp"
+            android:focusable="true"
+            android:padding="5dp"
+            android:visibility="visible"
+            app2:targetApi="lollipop">
+
+            <FrameLayout
+                android:id="@+id/linearprofileUpdatefrag"
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                android:elevation="2dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageView4frag"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|start"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@mipmap/lazywhite"
+                    android:contentDescription="@string/todo" />
+
+                <SeekBar
+                    android:id="@+id/seekBarprofilefrag"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/btnrd1"
+                    android:clickable="true"
+                    android:elevation="0dp"
+                    android:focusable="true"
+                    android:foregroundGravity="center"
+                    android:max="10"
+                    android:progress="1"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/TextInputEditTextType2frag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:text="@string/how_active_are_you_daily"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/textInputEditTextTypefrag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:text="1"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/imageView5frag"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|end"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@mipmap/activewhite"
+                    android:contentDescription="@string/todo" />
+            </FrameLayout>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_piratesprofilefrag"
+                android:layout_width="78dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="-60dp"
+                android:shadowColor="@color/colorAccent"
+
+                android:text="@string/male"
+                android:textColor="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textColorLink="@color/colorAccent"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_ninjasprofilefrag"
+                android:layout_width="94dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="-60dp"
+                android:shadowColor="@color/colorAccent"
+                android:text="@string/female"
+                android:textColor="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textColorLink="@color/colorAccent"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/userUpdatetextView1frag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:text="@string/update"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutNameProfilefrag"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btnrd1"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textInputEditTextFieldfrag"
+                    style="@style/AppTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top|center"
+                    android:gravity="center"
+                    android:hint="@string/update"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textColorHint="@android:color/black"
+                    android:textColorLink="@android:color/black" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnprofileYesfrag"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="60dp"
+                android:background="@drawable/btnrd"
+                android:elevation="0dp"
+                android:text="@string/ok"
+                android:textColor="@android:color/black"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnprofileNofrag"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="60dp"
+
+                android:background="@drawable/btnrd"
+                android:tag="Cancel"
+                android:text="@string/cancel"
+                android:textColor="@android:color/black"
+                android:visibility="visible" />
+        </FrameLayout>
+    </FrameLayout>
+
+</FrameLayout>

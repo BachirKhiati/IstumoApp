@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      <!--  <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> -->
+
+
+      <Button
+          android:id="@+id/button5"
+          android:layout_width="46dp"
+          android:layout_height="46dp"
+          android:layout_gravity="bottom|end"
+          android:layout_marginBottom="20dp"
+          android:layout_marginRight="30dp"
+          android:background="@mipmap/backicon"
+          android:elevation="5dp"
+          android:onClick="returnclick" />
+</FrameLayout>

@@ -1,0 +1,220 @@
+<resources>
+
+    <string name="app_name">Istumo</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+    completions."</string>
+
+
+        
+    <string name="text_accounts">Account</string>
+        
+    <string name="hint_name">Full Name</string>
+        
+    <string name="hint_email">Email</string>
+        
+    <string name="hint_password">Password</string>
+        
+    <string name="hint_confirm_password">Confirm Password</string>
+        
+    <string name="text_login">Login</string>
+        
+    <string name="text_register">Register</string>
+        
+    <string name="error_message_name">Enter Full Name</string>
+        
+    <string name="error_message_email">Enter Valid Email</string>
+        
+    <string name="error_message_age">Enter Age</string>
+        
+    <string name="error_message_password">Enter Password</string>
+        
+    <string name="success_message">Registration Successful</string>
+        
+    <string name="text_not_member">No account yet? Create one</string>
+        
+    <string name="text_already_member">Already a member? Login</string>
+        
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_email_notfound">Email Not Found</string>
+        
+    <string name="error_password_match">Password Does Not Matches</string>
+        
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+        
+    <string name="action_settings">Settings</string>
+        
+    <string name="text_hello">Hello,</string>
+        
+    <string name="text_title">Profile</string>
+    <string name="textview">TextView</string>
+    <string name="show_dialog">Show dialog</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_label">Login</string>
+    <string name="success_login_msg">Update successful</string>
+    <string name="error_login_msg">Please fill any empty fields</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="height">Height</string>
+    <string name="male">Male</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+
+    <string name="profile">Profile</string>
+    <string name="feed">FEED</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="settings">SETTINGS</string>
+    <string name="type">Level</string>
+    <string name="istumo">ISTUMO</string>
+    <string name="login1">login</string>
+    <string name="create_new_account">create new account</string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="Yesterday">Yesterday</string>
+    <string name="mute">Mute</string>
+    <string name="sound_on">Sound On</string>
+    <string name="sound_off">Sound OFF</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="notification_on">Notification ON</string>
+    <string name="notification_off">Notification Off</string>
+    <string name="tracking_settings">Tracking Settings</string>
+    <string name="time_intervale">Time Interval</string>
+    <string name="device_connected">Device Connected</string>
+    <string name="alpha">Alpha</string>
+    <string name="account_settings">Account settings</string>
+    <string name="tasks">Tasks</string>
+    <string name="activity2">Activity</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="log_out">Log out</string>
+    <string name="today">Today</string>
+    <string name="Calendar">Calendar</string>
+    <string name="save_data">SAVE DATA</string>
+    <string name="statistics">Stats</string>
+    <string name="todo">TODO</string>
+    <string name="how_active_are_you_daily">Adjust your activity Level</string>
+    <string name="next">Next</string>
+    <string name="update">Update</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="picture">Picture</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="calendar">Calendar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_history">Calendar</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Calendar</item>
+        <item>Today</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="_500">500</string>
+    <string name="gender">Gender</string>
+    <string name="other">Other</string>
+
+    <string name="your_preferences">YOUR PREFERENCES</string>
+    <string name="start_of_scrollview">START OF SCROLLVIEW</string>
+    <string name="end_of_scrollview">END OF SCROLLVIEW</string>
+    <string name="toggle_values">Toggle Values</string>
+    <string name="toggle_icons">Toggle Icons</string>
+    <string name="toggle_highlight">Toggle Highlight</string>
+    <string name="animate_x">Animate X</string>
+    <string name="animate_y">Animate Y</string>
+    <string name="animate_xy">Animate XY</string>
+    <string name="toggle_adjustxlegend">Toggle AdjustXLegend</string>
+    <string name="save_to_gallery">Save to Gallery</string>
+    <string name="toggle_pinchzoom">Toggle PinchZoom</string>
+    <string name="toggle_auto_scale_min_max">Toggle auto scale min/max</string>
+    <string name="show_bar_borders">Show Bar Borders</string>
+    <string name="save_to_sd_card">Save to SD-Card</string>
+    <string name="dashboard1">DashBoard</string>
+    <string name="active">Active</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="permission">Please give your permission.</string>
+    <string name="SelectPicture">Select Picture</string>
+    <string name="Welcome">Welcome</string>
+    <string name="today1">Today</string>
+    <string name="Today">Today</string>
+    <string name="Slouch">Slouch</string>
+    <string name="Other">Other</string>
+    <string name="restoftheday">Rest of the day</string>
+    <string name="TotalsittingHours">Total sitting Hours:</string>
+    <string name="Hours">Hours</string>
+    <string name="Good">Good</string>
+    <string name="DISMISS">DISMISS</string>
+    <string name="Contact">Contact us!</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="SwipeLeftRight">Swipe left and right for more charts!</string>
+    <string name="Features">Features.</string>
+    <string name="Activity">Activity</string>
+    <string name="Password">Password</string>
+    <string name="Weight">Weight</string>
+    <string name="Height">Height</string>
+    <string name="FullName">Full Name</string>
+    <string name="sound">Sound</string>
+    <string name="background">background</string>
+    <string name="pie">pie</string>
+    <string name="bar">bar</string>
+    <string name="line">line</string>
+    <string name="Time">time</string>
+    <string name="Morning">Morning</string>
+    <string name="Afternoon">Afternoon</string>
+    <string name="Night">Night</string>
+    <string name="hhour">h</string>
+    <string name="or">or</string>
+
+
+</resources>

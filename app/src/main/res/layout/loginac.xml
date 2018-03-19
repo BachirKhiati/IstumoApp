@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wallpapers"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+
+        <Button
+            android:id="@+id/buttonen"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:gravity="right|center"
+            android:text="En"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonfi"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:gravity="right|center"
+            android:text="FI"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="35dp"
+            android:clickable="false"
+            app:srcCompat="@mipmap/iconlanguage6" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="top|center"
+            android:text="@string/istumo"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="46sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:gravity="top">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textColorHint="@color/white">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextEmail"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/shape_02"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/shape_02"
+
+                android:hint="@string/hint_email"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:textColorHint="@color/white">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextPassword"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/shape_03"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/shape_03"
+
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/appCompatButtonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:text="@string/login1"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+
+        android:textSize="18sp"
+        android:theme="@style/PrimaryButtonBlue"
+        />
+
+    <TextView
+        android:id="@+id/textViewLinkRegister"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/create_new_account"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>

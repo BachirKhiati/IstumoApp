@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Istumo</string>
+    <string name="prompt_password">Salasana (valinnainen)</string>
+    <string name="prompt_email">Sähköposti</string>
+
+    <string name="action_sign_in">Kirjaudu sisään tai rekisteröidy</string>
+    <string name="action_sign_in_short">Kirjaudu sisään</string>
+    <string name="error_invalid_email">Tämä sähköpostiosoite on väärä</string>
+    <string name="error_invalid_password">Salasana on liian lyhyt</string>
+    <string name="error_incorrect_password">Salasana on väärä</string>
+    <string name="error_field_required">Tämä kenttä vaaditaan</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+    completions."</string>
+
+
+        
+    <string name="text_accounts">Käyttäjätili</string>
+        
+    <string name="hint_name">Koko nimi</string>
+        
+    <string name="hint_email">Sähköposti</string>
+        
+    <string name="hint_password">Salasana</string>
+        
+    <string name="hint_confirm_password">Vahvista Salasana</string>
+        
+    <string name="text_login">Kirjaudu</string>
+        
+    <string name="text_register">Rekisteröidy</string>
+        
+    <string name="error_message_name">Laita koko nimi</string>
+        
+    <string name="error_message_email" translatable="false">Laita toimiva  sähköposti</string>
+        
+    <string name="error_message_age">Aseta ikä</string>
+        
+    <string name="error_message_password">Laita salasana</string>
+        
+    <string name="success_message">Rekisteröinti onnistui</string>
+        
+    <string name="text_not_member">Ei vielä käyttäjätiliä? Luo uusi</string>
+        
+    <string name="text_already_member">Oletko jo käyttäjä? Kirjaudu</string>
+        
+    <string name="error_email_exists">Sähköposti on jo käytössä</string>
+        
+    <string name="error_password_match">Salasana ei täsmää</string>
+        
+    <string name="error_valid_email_password">Väärä sähköposti tai salasana</string>
+        
+    <string name="action_settings">Asetukset</string>
+        
+    <string name="text_hello">Hello,</string>
+        
+    <string name="text_title">Profiili</string>
+    <string name="textview">TextView</string>
+    <string name="show_dialog">Show dialog</string>
+    <string name="login">Kirjaudu</string>
+    <string name="email">Sähköposti</string>
+    <string name="password">Salasana</string>
+    <string name="login_label">Kirjaudu</string>
+    <string name="success_login_msg">Päivitys onnistui</string>
+    <string name="error_login_msg">Täytä tyhjät kentät kiitos</string>
+
+    <string name="drawer_open">Avaa</string>
+    <string name="drawer_close">Sulje</string>
+    <string name="height">Pituus</string>
+    <string name="male">Mies</string>
+    <string name="already_a_member_login">Oletko jo käyttäjä? Kirjaudu</string>
+    <string name="female">Nainen</string>
+    <string name="age">Ikä</string>
+    <string name="weight">Paino</string>
+
+    <string name="profile">Profiili</string>
+    <string name="feed">FEED</string>
+    <string name="activity">AKTIIVISUUS</string>
+    <string name="settings">ASETUKSET</string>
+    <string name="type">Taso</string>
+    <string name="istumo">ISTUMO</string>
+    <string name="login1">Kirjaudu</string>
+    <string name="create_new_account">Luo uusi käyttäjätili</string>
+    <string name="notification">ILMOITUS</string>
+    <string name="Yesterday">Eilinen</string>
+    <string name="mute">Hiljennä</string>
+    <string name="sound_on">Ääni päällä</string>
+    <string name="sound_off">Ääni pois päältä</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="notification_on">Ilmoitukset päällä</string>
+    <string name="notification_off">Ilmoitukset pois päältä</string>
+    <string name="tracking_settings">Asetukset</string>
+    <string name="time_intervale">Time Interval</string>
+    <string name="device_connected">Laite yhdistetty</string>
+    <string name="alpha">Alpha</string>
+    <string name="account_settings">Käyttäjätilin asetukset</string>
+    <string name="tasks">Tehtävät</string>
+    <string name="activity2">Aktiivisuus</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="log_out">Kirjaudu ulos</string>
+    <string name="today">Tänään</string>
+    <string name="Calendar">Kalenteri</string>
+    <string name="save_data">TALLENNA DATA</string>
+    <string name="statistics">Tilastot</string>
+    <string name="todo">TODO</string>
+    <string name="how_active_are_you_daily">Kuinka aktiivinen Olet?</string>
+    <string name="next">Seuraava</string>
+    <string name="update">Päivitä</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Peru</string>
+    <string name="picture">Kuva</string>
+    <string name="minimum_password">Salasana liian lyhyt, aseta vähintään 6 merkkiä!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Vaihda sähköposti</string>
+    <string name="change_password">Vaihda salasana</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Poista käyttäjä</string>
+    <string name="new_pass">Uusi salasana</string>
+    <string name="title_activity_login">Kirjaudu sisään</string>
+    <string name="btn_login">KIRJAUDU</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Unohditko salasanasi?</string>
+    <string name="btn_reset_password">Resetoi salasana</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">Uusi sähköposti</string>
+    <string name="btn_change">Vaihda</string>
+    <string name="btn_send">Lähetä</string>
+    <string name="btn_remove">Poista</string>
+    <string name="btn_sign_out">Kirjaudu ulos</string>
+    <string name="lbl_forgot_password">Unohditko salasanasi?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="calendar">Kalenteri</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Koti</string>
+    <string name="nav_profile">Profiili</string>
+    <string name="nav_history">Kalenteri</string>
+    <string name="nav_notifications">Ilmoitukset</string>
+    <string name="nav_settings">Asetukset</string>
+    <string name="nav_about_us">Tietoa meistä</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Koti</item>
+        <item>Profiili</item>
+        <item>Kalenteri</item>
+        <item>Tänään</item>
+        <item>Asetukset</item>
+    </string-array>
+
+    <string name="activity_title_about_us">Tietoa meistä</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Poista kaikki</string>
+    <string name="action_logout">Kirjaudu ulos</string>
+    <string name="action_mark_all_read">Merkitse kaikki luetuiksi</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="_500">500</string>
+    <string name="gender">Sukupuoli</string>
+    <string name="other">Muu</string>
+
+    <string name="your_preferences">YOUR PREFERENCES</string>
+    <string name="start_of_scrollview">START OF SCROLLVIEW</string>
+    <string name="end_of_scrollview">END OF SCROLLVIEW</string>
+    <string name="toggle_values">Toggle Values</string>
+    <string name="toggle_icons">Toggle Icons</string>
+    <string name="toggle_highlight">Toggle Highlight</string>
+    <string name="animate_x">Animate X</string>
+    <string name="animate_y">Animate Y</string>
+    <string name="animate_xy">Animate XY</string>
+    <string name="toggle_adjustxlegend">Toggle AdjustXLegend</string>
+    <string name="save_to_gallery">Tallenna Galleriaan</string>
+    <string name="toggle_pinchzoom">Toggle PinchZoom</string>
+    <string name="toggle_auto_scale_min_max">Toggle auto scale min/max</string>
+    <string name="show_bar_borders">Show Bar Borders</string>
+    <string name="save_to_sd_card">Tallenna SD-Kortille</string>
+    <string name="dashboard1">DashBoard</string>
+    <string name="active">Aktiivisuus</string>
+    <string name="Male">Mies</string>
+    <string name="Female">Nainen</string>
+    <string name="permission">Anna suostumuksesi kiitos.</string>
+    <string name="SelectPicture">Valitse kuva</string>
+    <string name="Welcome">Tervetuloa!</string>
+    <string name="today1">Tänään</string>
+    <string name="Today">Tänään</string>
+    <string name="Slouch">Slouch</string>
+    <string name="Other">Muu</string>
+    <string name="restoftheday">Loppupäivä</string>
+    <string name="TotalsittingHours">Istumisaika yhteensä:</string>
+    <string name="Hours">Tuntia</string>
+    <string name="Good">Hyvä</string>
+    <string name="DISMISS">HYLKÄÄ</string>
+    <string name="Contact">Ota meihin yhteyttä!</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="SwipeLeftRight">Pyyhkäise oikealle tai vasemmalle nähdäksesi lisää taulukoita!</string>
+    <string name="Features">Ominaisuudet.</string>
+    <string name="Activity">Aktiivisuus</string>
+    <string name="Password">Salasana</string>
+    <string name="Weight">Paino</string>
+    <string name="Height">Pituus</string>
+    <string name="FullName">Koko nimi</string>
+    <string name="sound">Äänet</string>
+    <string name="background">Tausta</string>
+    <string name="pie">piirakka</string>
+    <string name="bar">pylväs</string>
+    <string name="line">linja</string>
+    <string name="Time">aika</string>
+    <string name="Morning">Aamulla</string>
+    <string name="Afternoon">Iltapäivä</string>
+    <string name="Night">Yö</string>
+    <string name="hhour">t</string>
+    <string name="or">tai</string>
+    <string name="error_email_notfound">Sähköposti Ei Löytynyt</string>
+
+
+</resources>
+
+
+

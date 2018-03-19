@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wallpapers"
+    tools:context="fragment.HomeFragment">
+
+
+    <Button
+        android:id="@+id/buttonCalendar2home"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/calendar2"
+        android:onClick="CalanderMenu"
+        android:visibility="visible" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1Linehome"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="120dp"
+        android:clickable="true"
+        android:onClick="todayActivity"
+        android:visibility="gone" />
+
+    <com.skyfishjy.library.RippleBackground
+        android:id="@+id/content1"
+        android:layout_width="303dp"
+        android:layout_height="257dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:onClick="bluetoothOn"
+        android:visibility="gone"
+        app:rb_color="#0099CC"
+        app:rb_duration="1000"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="5"
+        app:rb_scale="5">
+
+        <ImageView
+            android:id="@+id/centerImage"
+            android:layout_width="153dp"
+            android:layout_height="144dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/bluetooth"
+            android:visibility="visible" />
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+    <firenoid.com.istumo3.CircularProgressBar
+        android:id="@+id/circularProgress"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:clickable="true"
+        android:onClick="todayActivity"
+        android:visibility="gone" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:scrollbars="none"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/todayBtn"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+
+                android:background="@color/bg_register"
+                android:text="@string/today"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:theme="@style/PrimaryButtonBlue"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="160dp"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textTimer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="50dp"
+        android:drawableRight="@drawable/thumdown"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textTimer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="50dp"
+        android:drawableLeft="@drawable/thumup"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</FrameLayout>
